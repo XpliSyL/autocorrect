@@ -11,6 +11,7 @@ word_regexes = {
     "it": r"[a-zA-ZãáàâçéêíõóôúüÃÁÀÂÇÉÊÍÕÓÔÚÜ]+",
     "fr": r"[a-zA-ZãáàâçéêíõóôúüÃÁÀÂÇÉÊÍÕÓÔÚÜ]+",
     "vi": r"[a-zA-ZàáạảãÀÁẠẢÃằắặẳẵẰẮẶẲẴầấậẩẫẦẤẬẨẪèéẹẻẽÈÉẸẺẼềếệểễỀẾỆỂỄìíịỉĩÌÍỊỈĨòóọỏõÒÓỌỎÕồốộổỗỒỐỘỔỖờớợởỡỜỚỢỞỠùúụủũÙÚỤỦŨừứựửữỪỨỰỬỮỳýỵỷỹỲÝỴỶỸ]+",
+    "de": r"[a-zA-ZäöüÄÖÜß]+",
 }
 
 alphabets = {
@@ -26,6 +27,7 @@ alphabets = {
     "it": "abcdefghijklmnopqrstuvwxzyãáàâçéêíõóôúü",
     "fr": "abcdefghijklmnopqrstuvwxzyãáàâçéêíõóôúü",
     "vi": "aàảãáạăằẳẵắặâầẩẫấậbcdđeèẻẽéẹêềểễếệfghiìỉĩíịjklmnoòỏõóọôồổỗốộơờởỡớợpqrstuùủũúụưừửữứựvwxyỳỷỹýỵz",
+    "de": "abcdefghijklmnopqrstuvwxyzöäü",
 }
 
 ipfs_gateways = [
@@ -46,6 +48,7 @@ ipfs_paths = {
     "el": ["QmbRSZvfJV6zN12zzWhecphcvE9ZBeQdAJGQ9c9ttJXzcg/el.tar.gz"],
     "it": ["QmbRSZvfJV6zN12zzWhecphcvE9ZBeQdAJGQ9c9ttJXzcg/it.tar.gz"],
     "fr": ["QmPRNDmUDTXikq8gWnGcw3ZGmnoBfvekmAyeyX8y6onf23/fr.tar.gz"],
+    "de": ["QmPRNDmUDTXikq8gWnGcw3ZGmnoBfvekmAyeyX8y6onf23/de.tar.gz"],
     "vi": ["QmRRJj5i7nkpzTRSKhFe23XMjLRw7f2zD6FLKDrRfzco7f/vi.tar.gz"],
 }
 
@@ -86,4 +89,7 @@ backup_urls = {
         "https://dl.dropboxusercontent.com/s/6xci1wfb387zk23/it.tar.gz?dl=0",
     ],
     "fr": ["https://mega.nz/file/kQByQJAb#rMbmF0HG09MLQQ-FDafHrPAgXigJIpmC1zhtxRMp2dQ"],
+    "de": [
+        "https://www.dropbox.com/scl/fi/l6bkln18mz78k1dd6snve/de.tar.gz?rlkey=s0we8jsltsyrbdqegg59dpc3a&dl=1",
+    ],
 }

@@ -140,6 +140,34 @@ french_words_all_correct = {
     "populaire": "popularie",
 }
 
+german_words_all_correct =  {
+    "Adresse": "Addresse",
+    "aggresiv": "aggresiv",
+    "brillant": "brilliant",
+    "Billard": "Billiard",
+    "Kommentar": "Komentar",
+    "persönlich": "persöhnlich",
+    "text": "texd|dext",
+    "mit": "mid|myt",
+    "ist": "isd",
+    "das": "daz",
+    "auf": "auv",
+    "als": "alß",
+    "sie": "zie",
+    "zur": "zurr",
+    "durch": "dürch",
+    "ISBN": "ISBM",
+    "eines": "einz",
+    "Zeit": "zeid",
+    "Autor": "Author",
+    "region": "regiön",
+    "Leben": "Lebem",
+    "Politiker": "Politicer",
+    "erhielt": "erhield",
+    "Hans": "Hanz",
+    "Kreis": "Kreiß",
+},
+
 single_typos_me = {
     "ae",
     "ame",
@@ -1114,6 +1142,33 @@ optional_language_tests = {
         "giãn": "giăn",
         "mau": "mảu",
     },
+    "de": {
+        "Adresse": "Addresse",
+        "aggresiv": "aggresiv",
+        "brillant": "brilliant",
+        "Billard": "Billiard",
+        "Kommentar": "Komentar",
+        "persönlich": "persöhnlich",
+        "text": "texd|dext",
+        "mit": "mid|myt",
+        "ist": "isd",
+        "das": "daz",
+        "auf": "auv",
+        "als": "alß",
+        "sie": "zie",
+        "zur": "zurr",
+        "durch": "dürch",
+        "ISBN": "ISBM",
+        "eines": "einz",
+        "Zeit": "zeid",
+        "Autor": "Author",
+        "region": "regiön",
+        "Leben": "Lebem",
+        "Politiker": "Politicer",
+        "erhielt": "erhield",
+        "Hans": "Hanz",
+        "Kreis": "Kreiß",
+    },
 }
 
 
@@ -1185,6 +1240,10 @@ def test_italian():
 def test_french():
     spell_fr = Speller("fr")
     assert spelltest(spell_fr, french_words_all_correct) == 0
+
+def test_german():
+    spell_de = Speller("de")
+    assert spelltest(spell_de, german_words_all_correct) == 0
 
 
 if __name__ == "__main__":
