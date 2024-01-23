@@ -1,5 +1,6 @@
 *.pyc
 dist/*
+autocorrect/data/*
 MANIFEST
 .vscode
 .coverage
