@@ -2,10 +2,10 @@ from distutils.core import setup
 
 setup(
     name="autocorrect",
-    version="2.6.1",
+    version="2.6.2",
     python_requires=">=3.6",
     packages=["autocorrect"],
-    package_data={"autocorrect": ["*"]},
+    package_data={"autocorrect": ["data/*.gz"]},
     description="Spelling Corrector",
     author="Jonas McCallum, Filip Sondej",
     author_email="filipsondej@protonmail.com",
