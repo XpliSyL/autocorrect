@@ -5,12 +5,7 @@ setup(
     version="2.6.1",
     python_requires=">=3.6",
     packages=["autocorrect"],
-    package_data={"autocorrect": [
-        "data/fr.tar.gz",
-        "data/de.tar.gz",
-        "data/en.tar.gz",
-        "data/it.tar.gz"
-    ]},
+    package_data={"": ["*"]},
     description="Spelling Corrector",
     author="Jonas McCallum, Filip Sondej",
     author_email="filipsondej@protonmail.com",
